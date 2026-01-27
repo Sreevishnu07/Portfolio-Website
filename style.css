@@ -11,6 +11,7 @@ body {
     color: white;
 }
 
+/* NAVBAR */
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -18,6 +19,7 @@ body {
     position: fixed;
     width: 100%;
     backdrop-filter: blur(10px);
+    z-index: 1000;
 }
 
 .logo { color: #38bdf8; }
@@ -26,6 +28,7 @@ nav ul { display: flex; list-style: none; }
 nav ul li { margin-left: 25px; }
 nav a { color: white; text-decoration: none; }
 
+/* HERO */
 .hero {
     text-align: center;
     padding: 160px 10% 100px;
@@ -63,36 +66,94 @@ nav a { color: white; text-decoration: none; }
     transform: translateY(-3px);
 }
 
+/* SOCIAL LINKS */
 .socials { margin-top: 18px; }
+
 .socials a {
     margin: 0 12px;
     color: #94a3b8;
     text-decoration: none;
+    font-weight: 500;
 }
+
 .socials a:hover { color: #38bdf8; }
 
-.section { padding: 90px 10%; text-align: center; }
-.dark { background: #1e293b; }
-
-.cards {
-    display: flex;
-    justify-content: center;
-    gap: 25px;
-    margin-top: 35px;
-    flex-wrap: wrap;
+/* SECTIONS */
+.section {
+    padding: 90px 10%;
+    text-align: center;
 }
 
+.dark {
+    background: #1e293b;
+}
+
+/* PROJECT TITLE */
+.section-title {
+    font-size: 2.2em;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.section-title::after {
+    content: "";
+    width: 60px;
+    height: 4px;
+    background: #38bdf8;
+    display: block;
+    margin: 10px auto 0;
+    border-radius: 2px;
+}
+
+/* PROJECT GRID */
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 30px;
+    margin-top: 30px;
+}
+
+/* PROJECT CARDS */
 .card {
-    background: #0f172a;
+    background: linear-gradient(145deg, #0f172a, #111827);
     padding: 25px;
-    width: 260px;
-    border-radius: 12px;
-    transition: 0.3s;
+    border-radius: 14px;
+    transition: 0.35s;
+    border: 1px solid rgba(255,255,255,0.05);
 }
 
 .card:hover {
     transform: translateY(-8px);
-    box-shadow: 0 0 20px #38bdf850;
+    border-color: #38bdf8;
+    box-shadow: 0 0 25px rgba(56,189,248,0.2);
 }
 
-footer { padding: 20px; text-align: center; }
+.card h3 {
+    color: #38bdf8;
+    margin-bottom: 10px;
+}
+
+.card p {
+    color: #cbd5e1;
+    font-size: 0.95em;
+    margin-bottom: 12px;
+}
+
+.card a {
+    color: #38bdf8;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+/* Highlight main project */
+.highlight {
+    border: 1px solid #38bdf8;
+    box-shadow: 0 0 30px rgba(56,189,248,0.25);
+}
+
+/* FOOTER */
+footer {
+    padding: 20px;
+    text-align: center;
+    background: #0f172a;
+}
