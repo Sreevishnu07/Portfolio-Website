@@ -38,10 +38,8 @@ nav a {
 }
 
 .hero {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 80px 10%;
+    text-align: center;
+    padding: 120px 10%;
 }
 
 .hero-text h1 {
@@ -100,3 +98,4 @@ footer {
     padding: 20px;
     background: #0f172a;
 }
+
