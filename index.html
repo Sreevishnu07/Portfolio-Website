@@ -5,57 +5,85 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Sree Vishnu | ML Engineer</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
 
-    <header>
-        <h1>Sree Vishnu</h1>
-        <p>Aspiring ML Engineer • GATE AIR 1 Goal • IIT Bombay Dream</p>
-        <a href="#projects" class="btn">View My Work</a>
-    </header>
+<nav>
+    <h2 class="logo">Sree Vishnu</h2>
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
 
-    <section id="about">
-        <h2>About Me</h2>
-        <p>
-            I am passionate about Machine Learning with strong mathematical foundations.
-            My focus areas include anomaly detection, graph neural networks, and AI systems for safety.
-        </p>
-    </section>
+<section class="hero">
+    <div class="hero-text">
+        <h1>Hi There,<br>I'm <span>Sree Vishnu</span></h1>
+        <h3>Aspiring Machine Learning Engineer</h3>
+        <p>Focused on ML research, anomaly detection, GNNs and AI for safety systems.</p>
 
-    <section id="projects">
-        <h2>Projects</h2>
+        <div class="buttons">
+            <a href="#projects" class="btn">View Projects</a>
+            <a href="resume.pdf" class="btn-outline" target="_blank">Download Resume</a>
+        </div>
 
-        <div class="card">
-            <h3>GNN-based Video Anomaly Detection</h3>
-            <p>Graph neural network model for detecting anomalies in surveillance footage.</p>
+        <div class="socials">
             <a href="https://github.com/Sreevishnu07" target="_blank">GitHub</a>
+            <a href="https://www.linkedin.com/in/sree-vishnu-a-s-398411299/" target="_blank">LinkedIn</a>
+            <a href="mailto:yourmail@gmail.com">Email</a>
+        </div>
+    </div>
+
+    <div class="hero-img">
+        <img src="https://i.imgur.com/8Km9tLL.png" alt="avatar">
+    </div>
+</section>
+
+<section id="about" class="section">
+    <h2>About Me</h2>
+    <p>
+        I love building mathematically grounded machine learning systems. My goal is to pursue
+        M.Tech at IIT Bombay and become an ML engineer working on impactful AI systems.
+    </p>
+</section>
+
+<section id="projects" class="section dark">
+    <h2>Projects</h2>
+
+    <div class="cards">
+        <div class="card">
+            <h3>GNN Anomaly Detection</h3>
+            <p>Graph neural network model for detecting unusual activities in videos.</p>
+            <a href="https://github.com/Sreevishnu07" target="_blank">View Code</a>
         </div>
 
         <div class="card">
-            <h3>S.A.F.E.R.A. Women's Safety AI</h3>
-            <p>AI system prototype for improving women's safety using computer vision.</p>
-            <a href="https://github.com/Sreevishnu07" target="_blank">GitHub</a>
+            <h3>S.A.F.E.R.A. AI System</h3>
+            <p>AI safety system prototype for women’s security using computer vision.</p>
+            <a href="https://github.com/Sreevishnu07" target="_blank">View Code</a>
         </div>
 
         <div class="card">
             <h3>CNN + LSTM Crime Detection</h3>
-            <p>Deep learning model combining CNNs and LSTMs for activity recognition.</p>
-            <a href="https://github.com/Sreevishnu07" target="_blank">GitHub</a>
+            <p>Deep learning architecture combining spatial and temporal modeling.</p>
+            <a href="https://github.com/Sreevishnu07" target="_blank">View Code</a>
         </div>
+    </div>
+</section>
 
-    </section>
+<section id="contact" class="section">
+    <h2>Contact</h2>
+    <p>Email: yourmail@gmail.com</p>
+    <p>GitHub: <a href="https://github.com/Sreevishnu07" target="_blank">https://github.com/Sreevishnu07</a></p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/sree-vishnu-a-s-398411299/" target="_blank">https://www.linkedin.com/in/sree-vishnu-a-s-398411299/</a></p>
+</section>
 
-    <section id="contact">
-        <h2>Contact</h2>
-        <p>Email: sreevishnu0407@gmail.com</p>
-        <p>GitHub: https://github.com/Sreevishnu07</p>
-        <p>LinkedIn: https://www.linkedin.com/in/sree-vishnu-a-s-398411299/</p>
-    </section>
+<footer>
+    <p>© 2026 Sree Vishnu</p>
+</footer>
 
-    <footer>
-        <p>© 2026 Sree Vishnu</p>
-    </footer>
-
-    <script src="script.js"></script>
 </body>
 </html>
