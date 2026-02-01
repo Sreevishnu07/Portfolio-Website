@@ -88,7 +88,7 @@ nav a { color: white; text-decoration: none; }
     background: #1e293b;
 }
 
-/* PROJECT TITLE */
+/* SECTION TITLE */
 .section-title {
     font-size: 2.2em;
     margin-bottom: 40px;
@@ -151,12 +151,66 @@ nav a { color: white; text-decoration: none; }
     box-shadow: 0 0 30px rgba(56,189,248,0.25);
 }
 
+/* CENTER LAST PROJECT */
+.center-card {
+    grid-column: 2 / span 1;
+}
+
+/* CERTIFICATIONS */
+.cert-list { margin-top: 30px; }
+
+.cert-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px 0;
+    border-bottom: 1px solid rgba(255,255,255,0.08);
+}
+
+.cert-item h3 {
+    font-size: 1em;
+    color: #cbd5e1;
+}
+
+.cert-item a {
+    color: #38bdf8;
+    margin-left: 15px;
+    font-size: 0.85em;
+    text-decoration: none;
+}
+
+.cert-item span {
+    color: #94a3b8;
+    font-size: 0.9em;
+}
+
+/* ACHIEVEMENTS */
+.achievements-list {
+    margin-top: 30px;
+    display: grid;
+    gap: 20px;
+}
+
+.ach-item {
+    background: linear-gradient(145deg, #0f172a, #111827);
+    padding: 18px;
+    border-radius: 12px;
+    border: 1px solid rgba(255,255,255,0.05);
+}
+
+.ach-item h3 {
+    color: #38bdf8;
+    margin-bottom: 6px;
+}
+
+.ach-item p {
+    color: #cbd5e1;
+    font-size: 0.9em;
+}
+
 /* FOOTER */
 footer {
     padding: 20px;
     text-align: center;
     background: #0f172a;
-}
-.center-card {
-    grid-column: 2 / span 1;
 }
