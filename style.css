@@ -160,12 +160,19 @@ nav a { color: white; text-decoration: none; }
 .cert-list { margin-top: 30px; }
 
 .cert-item {
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 1.8fr 1fr 1fr;
     align-items: center;
-    padding: 14px 0;
+    padding: 16px 0;
     border-bottom: 1px solid rgba(255,255,255,0.08);
+    transition: 0.3s;
 }
+.cert-item:hover {
+    background: rgba(56,189,248,0.05);
+    transform: translateX(5px);
+    transition: 0.3s;
+}
+
 
 .cert-item h3 {
     font-size: 1em;
@@ -214,3 +221,4 @@ footer {
     text-align: center;
     background: #0f172a;
 }
+
