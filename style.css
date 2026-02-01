@@ -203,6 +203,14 @@ nav a { color: white; text-decoration: none; }
     padding: 18px;
     border-radius: 12px;
     border: 1px solid rgba(255,255,255,0.05);
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.ach-item:hover {
+    transform: translateY(-6px);
+    border-color: #38bdf8;
+    box-shadow: 0 0 22px rgba(56,189,248,0.25);
 }
 
 .ach-item h3 {
@@ -221,4 +229,5 @@ footer {
     text-align: center;
     background: #0f172a;
 }
+
 
