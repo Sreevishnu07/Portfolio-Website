@@ -1,4 +1,4 @@
-const text = "Aspiring Machine Learning Engineer";
+const text = "Machine Learning Engineer";
 let i = 0;
 
 function typeEffect() {
@@ -10,3 +10,4 @@ function typeEffect() {
 }
 
 window.onload = typeEffect;
+
