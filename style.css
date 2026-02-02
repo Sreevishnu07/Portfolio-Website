@@ -222,6 +222,28 @@ nav a { color: white; text-decoration: none; }
     color: #cbd5e1;
     font-size: 0.9em;
 }
+/* ABOUT SECTION POLISH */
+#about p {
+    max-width: 900px;
+    margin: 0 auto;
+    line-height: 1.8;
+    font-size: 1.05em;
+}
+
+.about-box {
+    background: linear-gradient(145deg, #0f172a, #111827);
+    padding: 30px 35px;
+    border-radius: 14px;
+    border: 1px solid rgba(255,255,255,0.06);
+    box-shadow: 0 0 30px rgba(56,189,248,0.08);
+    margin-top: 30px;
+    transition: 0.3s;
+}
+
+.about-box:hover {
+    box-shadow: 0 0 35px rgba(56,189,248,0.15);
+}
+
 
 /* FOOTER */
 footer {
@@ -229,5 +251,6 @@ footer {
     text-align: center;
     background: #0f172a;
 }
+
 
 
