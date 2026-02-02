@@ -256,6 +256,19 @@ nav a { color: white; text-decoration: none; }
     margin-right: auto;
 }
 /* EDUCATION */
+/* Override center alignment for education rows */
+.edu-item {
+    text-align: left;
+}
+
+.edu-main {
+    text-align: left;
+}
+
+.edu-meta {
+    text-align: right;
+}
+
 .edu-list {
     margin-top: 35px;
     display: grid;
@@ -308,6 +321,7 @@ footer {
     text-align: center;
     background: #0f172a;
 }
+
 
 
 
