@@ -274,7 +274,14 @@ nav a { color: white; text-decoration: none; }
     display: grid;
     gap: 22px;
 }
+.edu-main {
+    text-align: left !important;
+}
 
+.edu-main h3,
+.edu-main p {
+    text-align: left !important;
+}
 .edu-item {
     background: linear-gradient(145deg, #0f172a, #111827);
     padding: 22px;
@@ -321,6 +328,7 @@ footer {
     text-align: center;
     background: #0f172a;
 }
+
 
 
 
