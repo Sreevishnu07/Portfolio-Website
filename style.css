@@ -277,6 +277,61 @@ nav a { color: white; text-decoration: none; }
 }
 .extra-item h3 { color: #38bdf8; margin-bottom: 6px; }
 .extra-item p { color: #cbd5e1; font-size: 0.95em; }
+/* EDUCATION SECTION */
+.edu-list {
+    margin-top: 35px;
+    display: grid;
+    gap: 22px;
+}
+
+.edu-item {
+    background: linear-gradient(145deg, #0f172a, #111827);
+    padding: 22px;
+    border-radius: 14px;
+    border: 1px solid rgba(255,255,255,0.05);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.3s;
+}
+
+.edu-item:hover {
+    transform: translateY(-6px);
+    border-color: #38bdf8;
+    box-shadow: 0 0 25px rgba(56,189,248,0.18);
+}
+
+.edu-main h3 {
+    color: #38bdf8;
+    margin-bottom: 4px;
+}
+
+.edu-main p {
+    color: #cbd5e1;
+    font-size: 0.92em;
+}
+
+.edu-meta {
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.edu-meta span {
+    color: #94a3b8;
+    font-size: 0.9em;
+}
+
+/* Mobile */
+@media (max-width: 800px) {
+    .edu-item {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+    .edu-meta { text-align: left; }
+}
 
 /* FOOTER */
 footer {
@@ -284,4 +339,5 @@ footer {
     text-align: center;
     background: #0f172a;
 }
+
 
