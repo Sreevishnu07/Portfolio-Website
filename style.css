@@ -407,6 +407,26 @@ nav a { color: white; text-decoration: none; }
 .skill-row:hover .skill-title {
     text-shadow: 0 0 10px #38bdf8;
 }
+/* ABOUT ME BOX HOVER EFFECT */
+.about-box {
+    transition: all 0.35s ease;
+    border: 1px solid rgba(255,255,255,0.06);
+}
+
+.about-box:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 0 35px rgba(56,189,248,0.25);
+    border-color: #38bdf8;
+}
+
+/* Text animation */
+.about-box p {
+    transition: all 0.3s ease;
+}
+
+.about-box:hover p {
+    letter-spacing: 0.3px;
+}
 
 
 /* FOOTER */
@@ -415,6 +435,7 @@ footer {
     text-align: center;
     background: #0f172a;
 }
+
 
 
 
