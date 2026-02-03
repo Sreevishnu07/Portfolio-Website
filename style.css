@@ -43,6 +43,14 @@ nav a { color: white; text-decoration: none; }
 .hero p { margin-top: 12px; color: #94a3b8; }
 
 .buttons { margin-top: 25px; }
+.hero-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    flex-wrap: wrap;
+}
+
 
 .btn, .btn-outline {
     padding: 12px 26px;
@@ -435,6 +443,7 @@ footer {
     text-align: center;
     background: #0f172a;
 }
+
 
 
 
