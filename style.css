@@ -382,6 +382,31 @@ nav a { color: white; text-decoration: none; }
     margin-right: 10px;
     min-width: 150px;
 }
+/* Skills hover animation */
+.skills-box {
+    transition: all 0.35s ease;
+}
+
+.skills-box:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 0 35px rgba(56,189,248,0.25);
+    border-color: #38bdf8;
+}
+
+/* Row hover */
+.skill-row {
+    transition: all 0.25s ease;
+    padding: 6px 0;
+}
+
+.skill-row:hover {
+    transform: translateX(8px);
+}
+
+/* Title glow on hover */
+.skill-row:hover .skill-title {
+    text-shadow: 0 0 10px #38bdf8;
+}
 
 
 /* FOOTER */
@@ -390,6 +415,7 @@ footer {
     text-align: center;
     background: #0f172a;
 }
+
 
 
 
