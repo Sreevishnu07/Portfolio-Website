@@ -237,6 +237,36 @@ nav a { color: white; text-decoration: none; }
     line-height: 1.8;
     font-size: 1.05em;
 }
+/* EXTRA CURRICULAR SECTION */
+.extra-list {
+    margin-top: 30px;
+    display: grid;
+    gap: 22px;
+}
+
+.extra-item {
+    background: linear-gradient(145deg, #0f172a, #111827);
+    padding: 22px;
+    border-radius: 14px;
+    border: 1px solid rgba(255,255,255,0.05);
+    transition: all 0.3s ease;
+}
+
+.extra-item:hover {
+    transform: translateY(-6px);
+    border-color: #38bdf8;
+    box-shadow: 0 0 25px rgba(56,189,248,0.25);
+}
+
+.extra-item h3 {
+    color: #38bdf8;
+    margin-bottom: 6px;
+}
+
+.extra-item p {
+    color: #cbd5e1;
+    font-size: 0.95em;
+}
 
 /* FOOTER */
 footer {
@@ -244,3 +274,4 @@ footer {
     text-align: center;
     background: #0f172a;
 }
+
